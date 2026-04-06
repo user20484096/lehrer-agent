@@ -23,13 +23,20 @@ Der Agent ist als [Claude Code Plugin](https://docs.anthropic.com/en/docs/claude
 
 ### Claude Cowork / OpenWork (empfohlen)
 
-**Methode 1 — Plugin Upload:**
+**Methode 1 — Marketplace:**
+
+1. Claude Desktop-App öffnen → oben auf **Cowork** wechseln
+2. Plugin-Sidebar → **"+"** → **Add marketplace from GitHub**
+3. Eingeben: `lehrer-tools/marketplace` → **Sync**
+4. **lehrer-agent** auswählen → **Install**
+
+**Methode 2 — ZIP Upload:**
 
 1. [ZIP herunterladen](https://github.com/lehrer-tools/lehrer-agent/archive/refs/heads/main.zip)
 2. Claude Desktop-App öffnen → oben auf **Cowork** wechseln
 3. Plugin-Sidebar → **"+"** → **Upload** → ZIP-Datei auswählen
 
-**Methode 2 — Ordner öffnen:**
+**Methode 3 — Ordner öffnen:**
 
 1. [ZIP herunterladen](https://github.com/lehrer-tools/lehrer-agent/archive/refs/heads/main.zip) und entpacken
 2. Claude Desktop-App öffnen → oben auf **Cowork** wechseln
